@@ -1,0 +1,46 @@
+/* Reset */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+/* General Styles */
+body {
+    font-family: 'Josefin Sans', sans-serif; 
+    background-image: url('../images/yellow-bckg.png');
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+p, label, input, button {
+    font-size: 1.2em;
+}
+
+label,
+input {
+    margin-right: 10px;
+}
+
+.wrapper {
+    width: 680px;
+    padding: 30px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
